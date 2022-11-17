@@ -14,8 +14,3 @@ dependencies {
     implementation(project(":test-processor"))
     ksp(project(":test-processor"))
 }
-
-ksp {
-    arg("option1", "value1")
-    arg("option2", "value2")
-}
