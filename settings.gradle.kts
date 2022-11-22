@@ -11,7 +11,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = "playground"
+rootProject.name = "class-retrying-test"
 
 include(":workload")
-include(":test-processor")
+include(":ksp-processor")

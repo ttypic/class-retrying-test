@@ -1,0 +1,11 @@
+package com.example.foo
+
+import kotlin.Unit
+import org.junitpioneer.jupiter.RetryingTest
+
+public class `KClass$test2` {
+  @RetryingTest(3)
+  public fun test2(): Unit {
+    KClass().test2()
+  }
+}
